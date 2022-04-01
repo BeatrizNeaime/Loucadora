@@ -1,0 +1,73 @@
+/* imports */
+@import url(../root.css);
+/* imports */
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Inter&display=swap');
+/* end imports */
+
+.btnGenero {
+    margin-top: 1rem;
+}
+
+.btnGenero button {
+    height: 50px;
+    width: 119px;
+}
+
+.container {
+    display: flex;
+}
+
+.f {
+    margin-top: 1rem;
+}
+
+.filmes {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 3rem;
+    width: 80vw;
+}
+
+footer {
+    color: var(--preto);
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    padding: 1rem;
+}
+
+.generos {
+    align-items: center;
+    border-left: 1px solid #E5E5E5;
+    display: flex;
+    flex-direction: column;
+    margin-right: 1.5rem;
+    padding-left: 20px;
+}
+
+h1 {
+    font-family: 'Bungee', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 2rem 0 1rem 0;
+}
+
+h4 {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+
+.poster {
+    height: 302px;
+    margin-right: 1rem;
+}
+
+.poster .ultimo {
+    margin-right: 0;
+}
+
+.posteres {
+    margin-bottom: 1rem;
+}

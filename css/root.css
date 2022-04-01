@@ -3,4 +3,9 @@
     --menu-bar: #8f97bf;
     --botao: #3462bf;
     --roxo-escuro: #7a85bf;
+    --preto: #0d0d0d;
+}
+
+body{
+    background-color: var(--background);
 }
