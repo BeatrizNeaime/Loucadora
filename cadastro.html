@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loucadora | Cadastro</title>
+    <!-- Ícone da página -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/icons/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/icons/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <!-- Fim ícone -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/cadastro/style.css">
+    <link rel="stylesheet" href="./css/btn.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="./img/2-removebg-preview 2.svg" alt="">
+        </div>
+        <div class="title">
+            <h1>loucadastro</h1>
+        </div>
+    </header>
+    <main>
+        <form>
+            <div class="up">
+                <div class="trem">
+                    <label class="subtitle" for="name">Nome</label>
+                    <input type="text" class="inputName boxshadow" placeholder="João da Silva">
+                </div>
+                <div class="together">
+                    <div class="trem">
+                        <label class="subtitle" for="address">Endereço</label>
+                        <input class="boxshadow" type="text" placeholder="Rua dos Bobos, nº 0">
+                    </div>
+                    <div class="trem">
+                        <label class="subtitle" for="bairro">Bairro</label>
+                        <input type="text" class="boxshadow" placeholder="Bairro do Limoeiro">
+                    </div>
+                </div>
+            </div>
+
+            <div class="up">
+                <div class="trem">
+                    <label class="subtitle" for="name">e-mail</label>
+                    <input type="email" class="inputName boxshadow" placeholder="joao.silva@exemplo.com">
+                </div>
+                <div class="together">
+                    <div class="trem">
+                        <label class="subtitle" for="address">cidade</label>
+                        <input type="text" placeholder="Poços de Caldas" class="boxshadow" >
+                    </div>
+                    <div class="trem">
+                        <label class="subtitle" for="bairro">estado</label>
+                        <select autofocus name="UF" id="UF">
+                            <option value="select">Selecione</option>
+                            <option value="ac">AC</option>
+                            <option value="al">AL</option>
+                            <option value="AP">AP</option>
+                            <option value="AM">AM</option>
+                            <option value="BA">BA</option>
+                            <option value="CE">CE</option>
+                            <option value="ES">ES</option>
+                            <option value="GO">GO</option>
+                            <option value="MA">MA</option>
+                            <option value="MT">MT</option>
+                            <option value="MS">MS</option>
+                            <option value="MG">MG</option>
+                            <option value="PA">PA</option>
+                            <option value="PB">PB</option>
+                            <option value="PR">PR</option>
+                            <option value="PE">PE</option>
+                            <option value="PI">PI</option>
+                            <option value="RJ">RJ</option>
+                            <option value="RN">RN</option>
+                            <option value="RS">RS</option>
+                            <option value="RO">RO</option>
+                            <option value="RR">RR</option>
+                            <option value="SC">SC</option>
+                            <option value="SP">SP</option>
+                            <option value="SE">SE</option>
+                            <option value="TO">TO</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="gender">
+                <div class="help">
+                    <p class="sub">Sexo</p>
+                    <div class="inputs">
+                        <input type="radio" value="genero" name="genero" checked>Feminino
+                        <input type="radio" value="genero" name="genero">Masculino
+                    </div>
+                </div>
+                <div class="bday">
+                    <div class="bdayy">
+                        <label for="date" class="nopadding">Data de Nascimento</label>
+                        <input type="date" class="boxshadow" >
+                    </div>
+                </div>
+            </div>
+
+            <div class="tipos">
+                <p>gêneros que eu curto: </p>
+                <div class="container">
+                    <div class="barra">
+                        <div class="optionn">
+                            <input type="checkbox">Ação
+                        </div>
+                        <div class="optionn">
+                            <input type="checkbox">Documentário
+                        </div>
+                        <div class="optionn">
+                            <input type="checkbox">Infantil
+                        </div>
+                    </div>
+                    <div class="barra">
+                        <div class="optionn">
+                            <input type="checkbox">Aventura
+                        </div>
+                        <div class="optionn">
+                            <input type="checkbox">Drama
+                        </div>
+                        <div class="optionn">
+                            <input type="checkbox">Ficção Científica
+                        </div>
+                    </div>
+                    <div class="barra">
+                        <div class="optionn">
+                            <input type="checkbox">Animação
+                        </div>
+                        <div class="optionn">
+                            <input type="checkbox">Fantasia
+                        </div>
+                        <div class="optionn">
+                            <input type="checkbox">Romance
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="abaixo">
+                <div class="trem">
+                    <label for="user">Nome de usuário</label>
+                    <input type="text" class="inputName" placeholder="João Frango">
+                </div>
+                <div class="trem">
+                    <label for="password">Senha</label>
+                    <input type="password" class="inputName" placeholder="********">
+                </div>
+            </div>
+        </form>
+        <div class="botoes">
+            <a href="./login.html"><button class="aq" ">cancelar</button></a>
+            <button type=" reset" class="aq" ">limpar</button>
+            <a href=" ./posteres.html"><button type="submit">cadastrar</button></a>
+        </div>
+    </main>
+</body>
+
+</html>

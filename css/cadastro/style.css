@@ -1,0 +1,229 @@
+/* imports */
+@import url(../root.css);
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Inter&display=swap');
+/* imports */
+
+.abaixo {
+    display: flex;
+    justify-content: space-around;
+}
+
+.aq{
+    background-color: RGBA(122,133,191,1);
+}
+
+.barra {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 200px;
+}
+
+.bdayy{
+    display: flex;
+    flex-direction: column;
+}
+
+.botoes {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 4rem;
+}
+
+.botoes button {
+    height: 50px;
+}
+
+.boxshadow{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.container {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2rem;
+    width: 100%;
+}
+
+.gender {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+}
+
+.gender p {
+    font-family: 'Bungee', sans-serif;
+    margin-right: 1.3rem;
+}
+
+h1 {
+    font-family: 'Bungee', sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+header {
+    align-items: center;
+    display: flex;
+}
+
+.help {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content:ce;
+    width: 300px;
+}
+
+.help input {
+    margin: 0 1.5rem;
+}
+
+.inputs{
+    align-items: center;
+    display: flex;
+}
+
+input {
+    background: #FDFDFD;
+    border: none;
+    border-radius: 12px;
+    height: 40px;
+    padding-left: 12px;
+}
+
+input[type="checkbox"] {
+    background-color: #c6c6c6;
+    border-radius: 20px;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2) inset;
+    height: 20px;
+    margin-right: 1rem;
+    outline: none;
+    position: relative;
+    width: 40px;
+    -webkit-appearance: none;
+}
+
+input[type="checkbox"]:checked {
+    background-color: #3462bf;
+}
+
+input[type="checkbox"]::before {
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    content: '';
+    cursor: pointer;
+    height: 20px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transition: .5s;
+    transform: scale(1.2);
+    width: 20px;
+}
+
+input:checked[type="checkbox"]::before {
+    left: 20px;
+}
+
+input[type="radio"]{
+    width: 20px;
+}
+
+.inputName {
+    width: 300px;
+}
+
+.juntos{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+label {
+    font-family: 'Bungee', sans-serif;
+    margin-bottom: 3px;
+    margin-left: 15px;
+}
+
+.logo {
+    width: 10vw;
+}
+
+main {
+    margin: 3rem 2rem 0 2rem;
+}
+
+.nopadding{
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.optionn {
+    align-items: center;
+    display: flex;
+    margin: 1rem;
+}
+
+select {
+    background-color: #FDFDFD;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 40px;
+    padding-left: 12px;
+    width: 190px;
+}
+
+.sub{
+    text-align: center;
+}
+
+.tipos {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tipos p {
+    font-family: 'Bungee', sans-serif;
+    font-size: 35px;
+    margin: 1rem 0;
+}
+
+.title {
+    width: 90vw;
+}
+
+.together {
+    display: flex;
+    gap: 1.9rem;
+}
+
+.top {
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.trem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+#uf {
+    height: 40px;
+}
+
+.up {
+    display: flex;
+    justify-content: space-evenly;
+}
