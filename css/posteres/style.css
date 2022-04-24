@@ -1,6 +1,5 @@
 /* imports */
 @import url(../root.css);
-@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Inter&display=swap');
 /* end imports */
 
 .btnGenero {
@@ -58,11 +57,19 @@ h4 {
     font-size: 16px;
 }
 
+img{
+    transition: 0.5s ease;
+}
+
+img:hover{
+    height: 350px;
+}
+
+
 .poster {
     height: 302px;
     margin-right: 1rem;
 }
-
 .poster .ultimo {
     margin-right: 0;
 }

@@ -1,4 +1,5 @@
-/* imports */@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Inter&display=swap');
+/* imports */
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Inter&display=swap');
 @import url(../root.css);
 /* end */
 
@@ -12,7 +13,7 @@ body {
     height: 100vh;
 }
 
-.cadastrar{
+.cadastrar {
     color: var(--botao);
     font-family: 'Inter', sans-serif;
     font-size: 16px;
@@ -21,11 +22,11 @@ body {
     text-transform: capitalize;
 }
 
-.cadastrar:hover{
+.cadastrar:hover {
     color: var(--preto);
 }
 
-.cadastro{
+.cadastro {
     color: #fdfdfd;
     font-family: 'Inter', sans-serif;
     font-size: 16px;
@@ -39,7 +40,7 @@ h1 {
     text-transform: uppercase;
 }
 
-.first{
+.first {
     display: flex;
     flex-direction: column;
     margin-bottom: 1rem;
@@ -51,7 +52,7 @@ h1 {
     justify-content: center;
 }
 
-.input{
+.input {
     border: none;
     border-radius: 12px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -60,17 +61,18 @@ h1 {
     width: 300px;
 }
 
-label{
+label {
     font-family: 'Bungee', sans-serif;
     margin-bottom: 3px;
     margin-left: 15px;
 }
 
 .left {
-   width: 34vw; 
+    height: 100vh;
+    width: 34vw;
 }
 
-.left img{
+.left img {
     width: 100%;
 }
 
@@ -81,6 +83,10 @@ label{
     justify-content: center;
 }
 
+.main{
+    height: 90vh;
+}
+
 .right {
     display: flex;
     flex-direction: column;
@@ -89,7 +95,7 @@ label{
     width: 65vw;
 }
 
-.second{
+.second {
     display: flex;
     flex-direction: column;
     margin-bottom: 1.5rem;

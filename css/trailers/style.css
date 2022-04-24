@@ -8,6 +8,10 @@
     align-items: center;
 }
 
+footer{
+    margin: 1.5rem;
+}
+
 h1{
     font-family: 'Bungee', sans-serif;
     font-size: 40px;
@@ -21,9 +25,3 @@ h3{
     font-size: 20px;
     margin: 2rem 0 5px 1rem;
 }
-
-.change{
-    height: 100%;
-}
-
-

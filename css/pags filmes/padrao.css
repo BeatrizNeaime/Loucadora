@@ -1,0 +1,52 @@
+@import url(../root.css);
+
+a{
+    color: black;
+    margin-right: 5px;
+}
+
+.container{
+    display: flex;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter', sans-serif;
+    justify-content: space-evenly;
+    margin: 1rem;
+    padding: 1rem;
+    width: 50vw;
+}
+
+.genero{
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+    color: #fdfdfd;
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.imagem{
+    display: flex;
+    justify-content: center;
+    width: 30vw;
+}
+
+.imagem img{
+    height: 650px;
+}
+
+main{
+    margin: 2rem 0;
+}
+
+#s{
+    text-align: justify;
+}
+
